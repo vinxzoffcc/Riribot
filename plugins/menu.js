@@ -83,7 +83,7 @@ const handler = async (m, { conn, args }) => {
   let time = d.toLocaleTimeString(locale, { hour: 'numeric', minute: 'numeric' });
   let uptime = clockString(process.uptime() * 1000);
 
-  const menuImage = "https://files.cloudkuimages.guru/images/8qnfkemN.jpg";
+  const menuImage = "https://files.catbox.moe/6yj3n6.jpg";
 
   if (args[0]) {
     const categoryArg = args[0].toLowerCase();
